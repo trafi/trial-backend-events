@@ -87,9 +87,13 @@ contracts:
 ### Bonus points
 - We have not worked with .Net's minimal API at Trafi, this is a great opportunity to write this mock using that
 - Mocked service has GUI API explorer
+- Integration layer tests
 - GDPR is of highest priority for Trafi. How can we ensure user's data can be deleted from Kafka
 
-### Env setup
+### Further Design steps
+After the MVP scope is done (aka initial integration) we will need to start working on making this solution production ready. As a senior engineer you are expected to deliver a solution how this could be achieved and what does it mean `production ready`. This should be a short presentation for the stakeholders (Product Manager, Project Manager, Tech Leads). We need to understand how much it will take to implement, maintain and run. Solution should be scalable and quickly deployable for the client (maybe client can self service).
+
+## Env setup
 Start event streaming backbone (Kafka)
 ```
 docker-compose up -d
@@ -99,5 +103,5 @@ Build `EventProducer` . Start both console app in the background. It will start 
 
 That is it. You have a running platform!
 
-### Code commit instructions
+## Code commit instructions
 Create new branch `{name}_{date}` (like `John_2023-01-01`) and push all changes to the branch.
