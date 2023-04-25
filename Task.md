@@ -1,6 +1,6 @@
 # Trial Day task
 
-This solutions contains 4 projects:
+This solutions contains 3 projects:
 - EventContracts (should not be changed) - Shared Library which contains *INTERNAL* Event Contracts. This library can be referenced in IntegrationLayer or other projects created by you. 
 - EventProducer (should not be changed) - This is part of the systems which non-stop generates events, treat it as a live MaaS platform backend, where user's interactions ends up in some event being produced.  
 - IntegrationLayer - this is the missing piece of the puzzle. 
